@@ -1,3 +1,15 @@
 spring:
   application:
     name: toeic-ai-platform
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/toeic_ai_platform
+    username: postgres
+    password: 2211063
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
+  flyway:
+    enabled: true
